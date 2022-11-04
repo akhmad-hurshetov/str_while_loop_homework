@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    a=int(s)
+    while a!=0:
+        i+=a%10
+        a=a//10
+    return i
