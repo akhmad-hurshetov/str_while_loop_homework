@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    oddnum=""
+    while i<len(s):
+        if int(s[i])%2!=0:
+            oddnum+=s[i]
+        i+=1
+    oddnum=len(oddnum)
+    return int(oddnum)
