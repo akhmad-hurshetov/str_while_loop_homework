@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    evnum=""
+    while i<len(s):
+        if int(s[i])%2==0:
+            evnum+=s[i]
+        i+=1
+    evnum=len(evnum)
+    return int(evnum)
